@@ -57,4 +57,10 @@
  */
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated;
 
+/**
+ Updates the position of the cell currently being reordered by the editor to the user's touch
+ location. This method is a no-op if no cell is currently being reordered by the user.
+ */
+- (void)updateReorderCellPosition;
+
 @end
